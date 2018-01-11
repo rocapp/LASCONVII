@@ -1,0 +1,10 @@
+@ maxstor=100000
+@ meth=qualrk,tol=1e-6,atol=1e-6
+
+@ nmesh=150
+
+@ nmax=1000,ntst=50,autoymin=-100,autoymax=100,parmin=-100,parmax=300,autoxmin=-100,autoxmax=300,epsl=1e-7,epsu=1e-7,epss=1e-5, npr=1000 
+
+@ bell=0
+
+@ but=lascon:fq
