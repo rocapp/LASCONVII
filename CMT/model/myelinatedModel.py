@@ -128,6 +128,6 @@ for aL in np.arange(10000,30000,2000):
 	pyplot.title('Degraded Axon - Stage 3 [10 cm]')
 	pyplot.xlabel('time (ms)')
 	pyplot.ylabel('mV')
-	pyplot.savefig('figs\\axonLen_%d.png' % (aL,))
+	pyplot.savefig(os.path.join('figs','axonLen_%d.png' % (aL,)))
 	pyplot.close('all')
 	#pyplot.show()
