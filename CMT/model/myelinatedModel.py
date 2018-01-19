@@ -1,6 +1,7 @@
 from neuron import h, gui
 from matplotlib import pyplot
 import numpy as np
+import os
 
 # PART 1: Active propagation Myelinated axon
 
